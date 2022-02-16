@@ -1,6 +1,6 @@
 # EssaFuscator
 
-**Version 0.1.2**
+**Version 0.1.3**
 - An Obfuscator that is locked on fivem compiler
 - It's a tool to encrypt your code from being leaked
 
