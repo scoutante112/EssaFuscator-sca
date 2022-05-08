@@ -11,8 +11,8 @@ const essafuscator = require('essafuscator')
 const client = new essafuscator.EF('your-api-key')
 const fs = require('fs')
 
-client.obfuscate("print('testing')","your_own_watermark",async function(response){
-    await fs.writeFile("temp/output.lua",`${response}`,function(err){})
+client.obfuscate('print("test")','saltshani1','encoding-type',function(res){
+    fs.writeFile('out.lua',`${res}`,function(err){})
 })
 ```
 ---
