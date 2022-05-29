@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "typescript": "^4.6.4"
+  },
+  "name": "essafuscator",
+  "version": "0.1.7",
+  "main": "dest/index.js",
+  "types": "dest/index.d.ts",
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "axios": "^0.27.2"
+  }
+}
