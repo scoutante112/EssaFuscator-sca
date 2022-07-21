@@ -3,7 +3,8 @@
     "axios": "^0.27.2"
   },
   "name": "essafuscator",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/Aoun-Abu-Hassan/EssaFuscator"
 }
