@@ -8,10 +8,13 @@
 ## DOCS
 ```
 const fs = require('fs')
-const {EssaFuscator} = require('essafuscator-api')
-const client = new EssaFuscator('your-api-key')
-client.obfuscate("print('hi')",'watermark','emoji | arabic',function(res){
-    fs.writeFile('out.lua',res,function(err){})
+const EssaFuscator = require('essafuscator')({
+    apiKey:'',
+    encodingType:'',
+    watermark:''
+})
+EssaFuscator.obfuscate("print('hii')",function(response){
+    fs.writeFile('out.lua',response,function(err){})
 })
 ```
 ---
