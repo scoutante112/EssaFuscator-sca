@@ -6,7 +6,7 @@ class EssaFuscator {
     }
     
     async obfuscate(input,cb) {
-        axios.post(`https://api.essafuscator.net/v2/obfuscate/:${this.options.encodingType}`,JSON.stringify({
+        axios.post(`https://api-essafuscator.kryxguard.se/v2/obfuscate/:${this.options.encodingType}`,JSON.stringify({
             input: input,
             watermark: this.options.watermark,
         }),{headers:{
