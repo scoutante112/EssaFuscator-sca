@@ -2,7 +2,7 @@
   "dependencies": {
     "axios": "^0.27.2"
   },
-  "name": "essafuscator",
+  "name": "scamodding-essafuscator",
   "version": "0.1.10",
   "main": "index.js",
   "license": "MIT",
